@@ -141,7 +141,7 @@ p {
     color: #f39c12;
 }
 .header {
-    background: url(../images/home_updated.png);
+    background: url(../images/home_updated.jpg);
     background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -282,7 +282,10 @@ tuor:visited {
     line-height: 24px;
     margin-top: 40px;
 }
-.inner_about_desc {} .single_about_area {
+.inner_about_desc {
+    margin-top: -32px;
+} 
+.single_about_area {
     position: relative;
     padding-bottom: 4px;
     padding-left: 80px;
@@ -354,9 +357,12 @@ div.carousel-inner .item img {
     padding: 3px;
 }
 .testimonial_caption {
+    padding-left: 12px;
+    padding-right: 12px;
     padding-bottom: 70px;
 }
 .testimonial_caption p {
+
     color: #D8D8D8;
     font-size: 18px;
     line-height: 27px;
@@ -500,10 +506,11 @@ div.carousel-inner .item img {
 
 .call_to_action {
     background-color: #1a1a1a;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .call_to_action p {
+    margin-top: 15px;
     color: #dfdfdf;
     font-size: 18px;
     font-weight: 300;
@@ -567,7 +574,7 @@ color:#ffffff;
 }
 
 .download {
-    background: url(../images/Download_Now.png);
+    background: url(../images/Download_Now.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /*background: #1f1f1f;*/
@@ -579,6 +586,7 @@ color:#ffffff;
     width: 100%
 }
 .available_store {
+    margin-top: 90px !important;
     background: #1a1a1a;
     margin-top: -8px;
     position: relative;
@@ -596,6 +604,7 @@ color:#ffffff;
 .single_store {
     text-align: center;
     border-left: 1px solid #0F1217;
+    border-right: 1px solid #0F1217;
     min-height: 230px;
     padding-bottom: 15px;
     position: relative;
