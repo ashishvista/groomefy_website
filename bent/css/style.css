@@ -896,8 +896,8 @@ color:#ffffff;
 
 .copyright {
     background-color: #1A1D22;
-    padding-bottom: 65px;
-    padding-top: 65px;
+   padding-bottom: 30px;
+    padding-top: 25px;
     border-bottom: 3px solid #f39c12;
 }
 .copyright h2 {
@@ -907,6 +907,12 @@ color:#ffffff;
 .copy_right_text {
     width: 65%;
 }
+
+
+.copyright .copy_text_mod{
+    top: 13px;
+}
+
 .copy_right_text p {
     color: #8C8B8A;
     font-weight: 600;
