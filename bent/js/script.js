@@ -185,7 +185,7 @@ $(document).ready(function() {
     "use strict";
     
     $("#owl-demo2").owlCarousel({
-        autoPlay: 5000,
+        autoPlay: 10000,
         items: 1, //10 items above 1000px browser width
         itemsDesktop: [1370, 1], //5 items between 1000px and 901px
         itemsDesktopSmall: [900, 1], // betweem 900px and 601px
