@@ -159,6 +159,7 @@ p {
 }
 .home-iphone{
     text-align: right;
+    margin-top: -25px;
 }
 .home-iphone img{
     width: 100%;
@@ -907,7 +908,7 @@ color:#ffffff;
     color: #8C8B8A;
     font-weight: 600;
     /*text-transform: uppercase;*/
-    font-size: 15px;
+    font-size: 12px;
 }
 .copy_right_text p a {
     text-decoration: none;
