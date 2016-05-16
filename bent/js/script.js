@@ -295,7 +295,7 @@ $(document).ready(function() {
         }
         if (name && emaild && message) {
             $.ajax({
-                url: 'contact.php',
+                url: 'contact',
                 data: {
                     name: name,
                     emaild: emaild,
@@ -384,3 +384,29 @@ $('#accordion').on('shown.bs.collapse', toggleChevron);
 
 
 });
+
+
+/*function myFunction() {
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var subject = document.getElementById("subject").value;
+var message = document.getElementById("message").value;
+
+// Returns successful data submission message when the entered information is stored in database.
+var dataString = 'name=' + name + '&email=' + email + '&subject=' + subject + '&message=' + message;
+if (name == '' || email == '' || password == '' || contact == '') {
+alert("Please Fill All Fields");
+} else {
+// AJAX code to submit form.
+$.ajax({
+type: "POST",
+url: "ajaxjs.php",
+data: dataString,
+cache: false,
+success: function(html) {
+alert(html);
+}
+});
+}
+return false;
+}*/
